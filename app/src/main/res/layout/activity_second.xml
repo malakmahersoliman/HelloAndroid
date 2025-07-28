@@ -2,14 +2,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/secondRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/deepBlue">
+    android:background="@color/deepBlue"
+    tools:context=".SecondActivity">
 
     <LinearLayout
-        android:id="@+id/linearContainer"
+        android:id="@+id/linearSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -21,34 +21,33 @@
         app:layout_constraintEnd_toEndOf="parent">
 
 
-        <EditText
-            android:id="@+id/etUserName"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:hint="@string/enter_your_name"
-            android:padding="10dp"
-            android:backgroundTint="@color/skyBlue"
-            android:textColorHint="@color/cloudWhite"
-            android:textColor="@color/cloudWhite" />
-
-
         <TextView
-            android:id="@+id/tvWelcome"
+            android:id="@+id/tvQuote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/welcome"
+            android:text="@string/quot_it_often_seems_to_me_that_the_night_is_much_more_alive_and_richly_colored_than_the_day_quot"
             android:textColor="@color/moonYellow"
-            android:textSize="20sp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="20dp" />
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center" />
 
 
         <Button
-            android:id="@+id/btnGoToSecond"
+            android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/go_to_quote_screen"
+            android:text="@string/back_to_main"
             android:backgroundTint="@color/skyBlue"
             android:textColor="@color/cloudWhite" />
+
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_quote"
+            android:backgroundTint="@color/skyBlue"
+            android:textColor="@color/cloudWhite"
+            android:layout_marginTop="16dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

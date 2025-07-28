@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
+    <string name="go_to_quote_screen">Go to Quote Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="quot_it_often_seems_to_me_that_the_night_is_much_more_alive_and_richly_colored_than_the_day_quot">\"It often seems to me that the night is much more alive and richly colored than the day.\"</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="share_quote">Share Quote</string>
 </resources>
